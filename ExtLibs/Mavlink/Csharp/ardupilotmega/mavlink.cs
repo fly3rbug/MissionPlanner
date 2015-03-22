@@ -529,8 +529,10 @@ DEBUG = 254,
             VTOL_DUOROTOR=19, 
         	///<summary> Quad-rotor VTOL using a V-shaped quad config in vertical operation. Tailsitter. | </summary>
             VTOL_QUADROTOR=20, 
+			///<summary> Quad-rotor VTOL using a plus-shaped quad config in vertical operation. | </summary>
+			VTOL_QUADROTOR_NONTAILSITTER=21,
         	///<summary>  | </summary>
-            ENUM_END=21, 
+            ENUM_END=22, 
         
         };
         
